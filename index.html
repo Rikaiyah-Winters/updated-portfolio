@@ -18,14 +18,178 @@
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-
+  <script src="https://kit.fontawesome.com/5ac113fe7b.js" crossorigin="anonymous"></script>
   <meta name="theme-color" content="#fafafa">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+  rel="stylesheet">
 </head>
 
 <body>
 
+  <header>
+    <div class="content-wrapper">
+      <nav>
+        <ul>
+          <li><a href="#work">projects</a></li>
+          <li><a href="#skills">skills</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#contact" id="contact-link">contact me</a></li>
+        </ul>
+      </nav>
+      <div class="home-title">
+        <h1>Hi, I'm Rikaiyah Winters!</h1>
+        <h2>I'm a Front End Web Developer who creates beautiful, memorable websites in Mississippi.</h2>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <article class="portfolio">
+      <section id="work">
+        <div class="content-wrapper">
+          <h3 class="portfolio-header">Projects</h3> <!-- implement change to Projects -->
+          <div class="portfolio-wrapper">
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://fwzgjr.csb.app/" target="_blank"><img src="img/super-sticky-notes-thumbnail.png"
+                    alt="Sticky Note Project"></a>
+              </figure>
+              <h4>Super Sticky Notes</h4>
+              <p class="project-description">Greenfield React project that allows the user to create, edit, delete, and
+                search for notes.</p>
+              <p><span>Skills: </span>React, JSX, Components</p>
+              <p class="flex-fill"><span>Tools: </span>CodeSandbox, Props, State</p>
+              <a class="project-link" href="https://fwzgjr.csb.app/" target="_blank">live page</a>
+            </div>
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://fdynjj.csb.app/
+                " target="_blank"><img src="img/name-tag-generator-thumbnail.png" alt="Name Tag Generator Site"></a>
+              </figure>
+              <h4>Name Tag Generator</h4>
+              <p class="project-description">React project that allows the user to create as many name tags as they
+                want.</p>
+              <p><span>Skills: </span>React, JSX, Components</p>
+              <p class="flex-fill"><span>Tools: </span>CodeSandbox, Props, State</p>
+              <a class="project-link" href="https://fdynjj.csb.app/" target="_blank">live
+                page</a>
+            </div>
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://gj5d6t.csb.app/" target="_blank"><img src="img/hotel-booking-thumbnail.png"
+                    alt="Hotel Booking App site"></a>
+              </figure>
+              <h4>Hotel Booking App</h4>
+              <p class="project-description">React project where users can use filters to narrow down to the kind of
+                hotel they want.</p>
+              <p><span>Skills: </span>React, JSX, Components</p>
+              <p class="flex-fill"><span>Tools: </span>CodeSandbox, Props, State</p>
+              <a class="project-link" href="https://gj5d6t.csb.app/" target="_blank">live
+                page</a>
+            </div>
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://rikaiyah-winters.github.io/updated-github-repo-gallery/
+                " target="_blank"><img src="img/github-repo-gallery-thumbnail.png" alt="GitHub Repo Gallery"></a>
+              </figure>
+              <h4>GitHub Repo Gallery</h4>
+              <p class="project-description">JavaScript project that uses information from Github’s API to show details
+                about my public repositories.</p>
+              <p><span>Skills: </span>JavaScript</p>
+              <p class="flex-fill"><span>Tools: </span>REST API, GitHub Pages</p>
+              <a class="project-link" href="https://rikaiyah-winters.github.io/updated-github-repo-gallery/"
+                target="_blank">live page</a>
+            </div>
+            <div class="home-portfolio-piece">
+              <figure>
+                <a href="https://rikaiyah-winters.github.io/updated-guess-the-word-game/
+                " target="_blank"><img src="img/guess-the-word-thumbnail.png" alt="Guess the Word Game"></a>
+              </figure>
+              <h4>Guess the Word Game</h4>
+              <p class="project-description">Computer game made with JavaScript where players can guess a word one
+                letter at a time. The user win if they figure out the word before their allotted number of guesses runs
+                out.</p>
+              <p><span>Skills: </span>JavaScript</p>
+              <p class="flex-fill"><span>Tools: </span>GitHub Pages, JSON</p>
+              <a class="project-link" href="https://rikaiyah-winters.github.io/updated-guess-the-word-game/
+              " target="_blank">live page</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="content-wrapper">
+          <h3 class="skills-header">Skills</h3>
+          <h4>Developer Skills</h4>
+          <div class="language-wrapper">
+            <p class="skill">HTML and CSS</p>
+            <p class="skill">JavaScript</p>
+            <p class="skill">React</p>
+            <p class="skill">Responsive web development</p>
+            <p class="skill">Version Control</p>
+            <p class="skill">Git and GitHub</p>
+          </div>
+          <h4>Tech Stack</h4>
+          <div class="tool-wrapper">
+            <p class="tool">Chrome DevTools</p>
+            <p class="tool">GitHub Pages</p>
+            <p class="tool">Figma</p>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <section id="about">
+      <div class="content-wrapper">
+        <div class="about-content-wrapper">
+          <figure>
+            <img src="img/avi.jpg" alt="" id="profile-image">
+          </figure>
+          <div class="about-info">
+            <h3>Hi! I’m Rikaiyah Winters.</h3>
+            <h4>I'm a Front End Web Developer with a passion for creating clean, responsive websites.</h4>
+            <p class="about-text">I enjoy front end development because I am a visual person, and I love being able to
+              see the web projects that I’ve built. I am currently learning three foreign languages: French, Greek, and Japanese!
+            </p>
+            <p><span>Can't wait to work with you!</span></p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="contact">
+    <div class="content-wrapper">
+      <h3>Let's Connect</h3>
+      <div class="contact-wrapper">
+        <div class="contact-info">
+          <h5 class="contact-title">Hire me</h5>
+          <p>rsw242@gmail.com</p>
+        </div>
+        <div class="contact-info follow-section">
+          <h5 class="contact-title">Follow me</h5>
+          <ul class="social-icons">
+            <li><a href="https://www.linkedin.com/in/rikaiyahwinters/" target="_blank"><i
+                  class="fab fa-linkedin-in"></i></a>
+            </li>
+            <li><a href="https://github.com/rikaiyah-winters" target="_blank"><i class="fab fa-github"></i></a></li>
+          </ul>
+        </div>
+        <div class="contact-info">
+          <h5 class="contact-title">Meet me</h5>
+          <p>Vicksburg, MS</p>
+          <p>Let's go to meetups together!</p>
+        </div>
+      </div>
+      <p>Copyright
+        <script>document.write(new Date().getFullYear())</script> | Rikaiyah Winters
+      </p>
+    </div>
+  </footer>
+
   <!-- Add your site or application content here -->
-  <p>Hello world! This is HTML5 Boilerplate.</p>
+
   <script src="js/vendor/modernizr-3.11.2.min.js"></script>
   <script src="js/plugins.js"></script>
   <script src="js/main.js"></script>
