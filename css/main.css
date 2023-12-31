@@ -15,6 +15,7 @@ html {
   color: #222;
   font-size: 1em;
   line-height: 1.4;
+  scroll-behavior: smooth;
 }
 
 /*
@@ -464,6 +465,10 @@ footer .social-icons li {
 footer .social-icons li i {
   font-size: 1.875rem;
   color: #453e4f;
+}
+
+footer .contact-info p a {
+  text-decoration: underline;
 }
 
 
